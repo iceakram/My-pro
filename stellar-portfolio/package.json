@@ -1,0 +1,40 @@
+{
+  "name": "stellar-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A modern, accessible, SEO-friendly portfolio with secure contact form (Next.js + TypeScript + Tailwind + Turnstile + Nodemailer).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "next": "^14.2.5",
+    "nodemailer": "^6.9.14",
+    "postcss": "^8.4.41",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
+  }
+}
